@@ -16,9 +16,9 @@ console.log(array_reverse_join)
 
 //verifica palindroma
 if(array_reverse_join === utente){
-    console.log('Parola Palidroma')
+    console.log('Parola Palindroma')
 }
 
 else{
-    console.log('Parola non Palidroma')
+    console.log('Parola non Palindroma')
 }
