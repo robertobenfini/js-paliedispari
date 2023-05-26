@@ -2,7 +2,7 @@
 let utente = (prompt('Pari o Dispari?').toLowerCase());
 
 //controllo inserimento utente
-while(!(utente == 'pari' || utente == 'dispari')){
+while(utente !== 'pari' && utente !== 'dispari'){
     utente=(prompt('Pari o Dispari?').toLowerCase())
 };
 console.log(utente)
